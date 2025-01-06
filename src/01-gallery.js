@@ -96,7 +96,7 @@ gallContainer.addEventListener('click', (event) => {
     const imgElem = event.target.closest('.gallery-image');
         if(!imgElem) return;
     
-        console.log('Obrazek kliknięty:', imgElem.alt);
+        console.log('Wyświetl:', imgElem.alt);
 });
 
 const lightbox = new SimpleLightbox('.gallery a', {
