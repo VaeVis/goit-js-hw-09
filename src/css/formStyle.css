@@ -9,24 +9,12 @@
   box-sizing: border-box;
 }
 
-/* <form class="feedback-form" autocomplete="off">
-  <label>
-    Email
-    <input type="email" name="email" autofocus />
-  </label>
-  <label>
-    Message
-    <textarea name="message" rows="8"></textarea>
-  </label>
-  <button type="submit">Submit</button>
-</form> */
-
 .feedback-form {
   background-color: white;
   display: inline-flex;
   padding: 24px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 16px;
 }
 
@@ -48,10 +36,6 @@ input, textarea {
 input:hover, textarea:hover{
 border: 1px solid #000;
 }
-
-input:active, textarea:active{
-  
-  }
 
 button {
   color: #FFF;
